@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio page || Alexander Rezaei</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Alexander Rezaei Portfolio</h1>
+        <div class="project">
+            <h2>Semester Project 1</h2>
+            <div class="links">
+                <a href="https://github.com/alexrezaei/mobilefirstproject" class="link-bg">Github</a>
+                <a href="https://nifty-hamilton-da2a24.netlify.app/" class="link-bg">Website</a>
+            </div>
+            <div class="flex-wrap">
+                <div class="what">
+                    <h3>Changes</h3>
+                    <p>Fixed issues with hovering over buttons that caused elements to move</p>
+                    <p>Added headless cms to the event page</p>
+                </div>
+                <div class="how">
+                    <h3>Process</h3>
+                    <p> I used the advice given from the teachers by adding a transparent border so the buttons stays the same size when its inactive and active.
+                    </p>
+                    <p>Used headless cms to dynamicly add events to the event page. Used the standard async function for recieving json from the Wordpress api</p>
+                </div>
+                <div class="why">
+                    <h3>Reason</h3>
+                    <p>
+                        By fixing the small issues like this it makes the website seem more credible and trustworthy and as a whole more complete.
+                    </p>
+                    <p>
+                        Headless cms on the event page makes it easier to add new elements to the website dynamicly 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <h2>CA JS 1</h2>
+            <div class="links">
+                <a href="https://github.com/alexrezaei/Alexander-rezaei-js1-CA/tree/master" class="link-bg">Github</a>
+                <a href="https://relaxed-turing-e2143c.netlify.app/" class="link-bg">Website</a>
+            </div>
+            <div class="flex-wrap">
+                <div class="what">
+                    <h3>Changes</h3>
+                    <p>Contact form fixes and redesign</p>
+                </div>
+                <div class="how">
+                    <h3>Process</h3>
+                    <p>I started the process by going through the feedback from the teachers and taking their feedback on what i should improve and change and ofcourse issues with the code. I looked through a tutorial for Form validation <a href="https://www.youtube.com/watch?v=In0nB0ABaUk&t=338s">Link</a> I used some of the code but i suited it to my needs and the requirments of the CA. 
+                    </p>
+                </div>
+                <div class="why">
+                    <h3>Reason</h3>
+                    <p>
+                        I felt i needed to change the contact form validation because of the previous issues and messy code i had written for it, after watching the tutorial i felt that my previous code was overly complicated and subject to loads of errors. This is a more elegant and simpler version that actually works as intended. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <h2>Cross Course Project</h2>
+            <div class="links">
+                <a href="https://github.com/alexrezaei/Rainydays-try3" class="link-bg">Github</a>
+                <a href="https://admiring-nightingale-c960f3.netlify.app/" class="link-bg">Website</a>
+            </div>
+            <div class="flex-wrap">
+                <div class="what">
+                    <h3>Changes</h3>
+                    <p>Fixed issue where adding to cart did not update the correct size</p>
+                    <p>Added remove function to the cart</p>
+                </div>
+                <div class="how">
+                    <h3>Process</h3>
+                    <p> 
+                        added another event listener for the size so it updates the default size variable
+                    </p>
+                    <p>This one was really tricky because i had to use Event Delegation to add to attach an eventlistener to a dynamicly created button. This blogpost was espescially helpfull <a href="https://usefulangle.com/post/138/pure-javascript-event-handler-dynamic-element">link</a> for understanding the concept </p>
+                </div>
+                <div class="why">
+                    <h3>Reason</h3>
+                    <p>
+                       It was neeeded for the functionality of the add to cart feature
+                    </p>
+                    <p>The dynamicly created Remove button is something a struggled with in the past because i did not understand the concept of event delegation so it was great to finally understand why my eventlisteneres threw me an error.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
